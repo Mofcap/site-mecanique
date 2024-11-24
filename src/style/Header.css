@@ -1,0 +1,57 @@
+/* Conteneur principal du header */
+.header {
+    display: flex;
+    justify-content: center; /* Centre horizontalement le contenu */
+    align-items: center; /* Centre verticalement le contenu */
+    position: relative; /* Nécessaire pour positionner les engrenages */
+    height: 80px; /* Hauteur du header */
+    background-color: #fff; /* Fond blanc */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Ombre subtile */
+    padding: 0 20px; /* Espacement horizontal */
+    max-width: 100%;
+  }
+  
+  /* Style pour le logo */
+  .header-logo {
+    height: 60px; /* Taille ajustable du logo */
+    object-fit: contain; /* Maintien des proportions du logo */
+    z-index: 1; /* Assure que le logo est au-dessus des animations */
+  }
+  
+  /* Conteneur des animations */
+  .header-animation {
+    width: 60px; /* Taille de l'engrenage */
+    height: 60px;
+    position: absolute; /* Place les animations à des positions spécifiques */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Position des animations */
+  .header-animation.left {
+    left: 20px; /* Décale à gauche */
+  }
+  
+  .header-animation.right {
+    right: 20px; /* Décale à droite */
+  }
+  
+  /* Animation rotative */
+  .gear-icon {
+    width: 50px;
+    height: 50px;
+    animation: rotate 4s linear infinite; /* Animation continue */
+    opacity: 0.8; /* Légère transparence */
+  }
+  
+  /* Définition de l'animation */
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

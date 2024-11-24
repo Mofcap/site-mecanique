@@ -1,0 +1,54 @@
+/* Style pour la bannière principale */
+.banner {
+    text-align: center;
+    position: relative;
+    max-width: 100%;
+   
+    
+    border-radius: 10px;
+  }
+  
+  .banner-image-container {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .banner-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .banner-description {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  /* Style pour les boutons de navigation */
+  .banner-buttons {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 30%;
+    
+    width: 100%;
+  }
+  
+  .banner-button {
+    background: rgba(59, 59, 59, 0.5);
+    color: #ffffff;
+    border-radius: 50%;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 26px;
+    
+  }
+  
+  .banner-button:hover {
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
