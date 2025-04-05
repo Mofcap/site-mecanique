@@ -18,7 +18,7 @@ const About = () => {
       <p className="about-paragraph">
         J'offre une gamme complète de services de réparation et d’entretien automobile à domicile à Millau, 
         et sur un rayon de 50 km autour de Millau (12). Que vous ayez besoin d’une simple vidange d’huile, 
-        d’un changement de pneus, d’une réparation de freins ou d’un diagnostic complet de votre véhicule, je suis à votre service.
+         d’une réparation de freins ou d’un diagnostic complet de votre véhicule, je suis à votre service.
       </p>
       </div>
       {/* Section avec photo */}
