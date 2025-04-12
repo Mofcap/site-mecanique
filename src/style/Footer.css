@@ -3,12 +3,14 @@
     color: #ffffff; /* blanc */
     padding: 24px 0;
     margin-top: 60px;
+    align-items: center; /* aligne les éléments verticalement */
+    text-align: center;
   }
   
   .footer-container {
     display: flex;
     flex-direction: row; /* les enfants sont affichés en ligne */
-    justify-content: center; /* centre les éléments horizontalement */
+    justify-content: space-between;
     align-items: center; /* aligne les éléments verticalement */
     text-align: center;
     max-width: 960px;
