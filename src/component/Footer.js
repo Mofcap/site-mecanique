@@ -8,10 +8,11 @@ const Footer = () => {
         <h2 className="footer-title">Horaires de travail</h2>
         <p>Vendredi : 8h00 - 18h00</p>
         <p>Samedi : 8h00 - 18h00</p>
-        <p className="footer-copy">
+        
+      </div>
+      <p className="footer-copy">
           © {new Date().getFullYear()} Tous droits réservés
         </p>
-      </div>
     </footer>
   );
 };
