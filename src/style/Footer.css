@@ -6,6 +6,10 @@
   }
   
   .footer-container {
+    display: flex;
+    flex-direction: row; /* les enfants sont affichés en ligne */
+    justify-content: center; /* centre les éléments horizontalement */
+    align-items: center; /* aligne les éléments verticalement */
     text-align: center;
     max-width: 960px;
     margin: 0 auto;
